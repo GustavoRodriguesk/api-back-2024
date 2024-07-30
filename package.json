@@ -1,0 +1,25 @@
+{
+  "name": "back2024api",
+  "version": "1.0.0",
+  "description": "beta",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GustavoRodriguesk/api-back-2024.git"
+  },
+  "keywords": [
+    "api",
+    "express",
+    "zod",
+    "nvc"
+  ],
+  "author": "Gustavo Rodrigues Lima vulgo torresmo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GustavoRodriguesk/api-back-2024/issues"
+  },
+  "homepage": "https://github.com/GustavoRodriguesk/api-back-2024#readme"
+}
