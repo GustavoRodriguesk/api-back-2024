@@ -1,1 +1,14 @@
-console.log('anão é polpa de humano se bater com leite faz 2 adulto')
+//const express = require(express)
+import express from "express";
+
+const app = express()
+
+app.get('/', (req, res) => {
+res.json({
+    message: "vamos pra cima express",
+    success: "Executou Bonito"
+})
+})
+app.listen(3000, () => {
+    console.log('servidor rodando na porta http://localhost:3000')
+})
