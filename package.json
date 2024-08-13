@@ -1,7 +1,7 @@
 {
-  "name": "back2024api",
+  "name": "api-bke-express-2sem2024",
   "version": "1.0.0",
-  "description": "beta",
+  "description": "API Node com Express para o Backend do 2 Semestre de 2024 (3 Modulo) IFSP",
   "main": "src/server.js",
   "type": "module",
   "scripts": {
@@ -10,20 +10,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GustavoRodriguesk/api-back-2024.git"
+    "url": "git+https://github.com/renancavichi/api-bke-express-2sem2024.git"
   },
   "keywords": [
     "api",
     "express",
     "zod",
-    "nvc"
+    "mvc"
   ],
-  "author": "Gustavo Rodrigues Lima vulgo torresmo",
+  "author": "Renan Cavichi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/GustavoRodriguesk/api-back-2024/issues"
+    "url": "https://github.com/renancavichi/api-bke-express-2sem2024/issues"
   },
-  "homepage": "https://github.com/GustavoRodriguesk/api-back-2024#readme",
+  "homepage": "https://github.com/renancavichi/api-bke-express-2sem2024#readme",
   "dependencies": {
     "express": "^4.19.2"
   }

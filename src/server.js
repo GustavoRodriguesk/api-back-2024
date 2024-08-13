@@ -1,39 +1,12 @@
-import express from 'express';
-const app = express();
+import express from 'express'
+import authRouter from './routers/authRouter.js'
+import accountRouter from './routers/accountRouter.js'
 
-app.use(express.json());
+const app = express()
 
-app.post('/auth/signup', (req, res) => {
-    res.json({ message: "rota de POST auth/signup" });
-});
-
-app.post('/auth/login', (req, res) => {
-    res.json({ message: "rota de POST login" });
-});
-
-app.post('/auth/logout', (req, res) => {
-    res.json({ message: "rota de POST logout" });
-});
-
-app.post('/account', (req, res) => {
-    res.json({ message: "rota de POST account" });
-});
-app.get('/account/list', (req, res) => {
-    res.json({ message: "rota de GET list" });
-});
-
-app.get('/account/:id', (req, res) => {
-    res.json({ message: "rota de GET account id" });
-});
-
-app.put('/account/:id', (req, res) => {
-    res.json({ message: "rota de PUT account id" });
-});
-
-app.delete('/account/:id', (req, res) => {
-    res.json({ message: "rota de DELETE account id" });
-});
+app.use('/auth', authRouter)
+app.use('/account', accountRouter)
 
 app.listen(3000, () => {
-    console.log('Servidor rodando em http://localhost:3000');
-});
+    console.log('Servidor Rodando em http://localhost:3000')
+})
