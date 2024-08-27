@@ -9,7 +9,7 @@ const router = express.Router()
 
 router.post('/', createController)
 router.get('/list', listController)
-router.get('/:id', getByIdController)
+router.get('/:id/', getByIdController)
 router.put('/:id', updateController)
 router.delete('/:id', removeController)
 
